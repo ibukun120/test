@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD</title>
+    <link rel="stylesheet" href="birth.css">
+</head>
+
+
+<body>
+     <div class="container">
+        <div class="envelope-wrapper flap">
+           <div class="envelope">
+            <div class="letter">
+                <div class="text">
+                    <strong>My Dear Colour 🥰.</strong>
+                    <p>Happy birthday🎂, baby😍. I hope your special day is as special as you are to me, and as special as I am to you!❤️.</p>
+                    <p>From your favourite color.</p>
+                </div>
+            </div>
+           </div> 
+           <div class="heart"></div>
+        </div>
+     </div>
+     <script>
+        const envelope = document.querySelector(".envelope-wrapper");
+        envelope.addEventListener("click", () => {
+            envelope.classList.toggle("flap");
+        }); 
+     </script>
+</body>
+</html>
